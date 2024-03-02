@@ -63,7 +63,7 @@ const Cart = () => {
             Total Amount : {totalPrice}
           </h2>
           <button
-            onClick={() => navigate("/success")}
+            onClick={() => navigate("/successpage")}
             className="p-2 bg-emerald-500 text-white md:w-[22vw] w-full rounded-md mb-5 mt-2"
           >
             Checkout
