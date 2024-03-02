@@ -44,8 +44,9 @@ This is a simple food ordering web application built using React. Users can brow
 - Browse different food categories, add items to your cart, and proceed to checkout.
 
 ## Screenshots
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
+
+![img1](https://github.com/juned072/Food-Recipes-App/assets/146713870/112a5595-4868-420d-b1b6-63a0c8ea4871)
+![img2](https://github.com/juned072/Food-Recipes-App/assets/146713870/8f321138-5ac3-4c2c-88f2-4aeaa5aff775)
 
 ## License
 This project is licensed under the MIT License.
