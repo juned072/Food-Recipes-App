@@ -11,16 +11,16 @@ const Card = ({ filteredItemCategory }) => {
   return (
     <>
       <Toaster />
-      <div className="md:px-8 p-5 grid md:grid-cols-4 grid-cols-1 gap-10">
+      <div className="md:px-8 p-5 grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-3">
         {filteredItemCategory.map((item) => {
           return (
             <div
               key={item.id}
               className="md:w-[290px] w-full rounded-md shadow-md overflow-hidden"
             >
-              <img src={item.img} alt="burger" className="w-full h-52" />
+              <img src={item.img} alt="burger" className="w-full md:h-52" />
               <div className="p-2">
-                <div className="flex justify-between items-center">
+                <div className="md:flex md:justify-between md:items-center">
                   <h1 className="font-semibold text-lg ">{item.name}</h1>
                   <p className="font-semibold text-emerald-800">
                     ${item.price}
