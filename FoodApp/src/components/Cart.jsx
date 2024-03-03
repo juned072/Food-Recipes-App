@@ -60,7 +60,7 @@ const Cart = () => {
         <div className="mt-10">
           <h2 className="font-semibold text-slate-800">Item : {totalQty} </h2>
           <h2 className="font-semibold text-slate-800">
-            Total Amount : {totalPrice}
+            Total Amount : ${totalPrice}
           </h2>
           <button
             onClick={() => navigate("/successpage")}
